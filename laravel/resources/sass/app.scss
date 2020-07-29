@@ -7,9 +7,17 @@
 header {
   height: 200px;
 
-  ul {
-    li {
-      display: inline-block;
+  .logo {
+    img {
+      width: 100px;
+    }
+  }
+
+  nav{
+    ul {
+      li {
+        display: inline-block;
+      }
     }
   }
 }
