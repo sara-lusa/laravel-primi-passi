@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+@extends('layouts.app')
 
-  </body>
-</html>
+@section('title')
+  Privacy
+@endsection
+
+@section('main')
+  <main>
+
+  </main>
+@endsection

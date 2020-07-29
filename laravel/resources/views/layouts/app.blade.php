@@ -2,13 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>{{ @yield('title') }}</title>
+    <title>@yield('title')</title>
+
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
   </head>
   <body>
 
     <header>
       <div class="logo">
-        <img src="" alt="">
+        <img src="{{url('img/logo.png')}}" alt="">
       </div>
 
       <nav>
@@ -34,6 +36,10 @@
         </ul>
       </nav>
     </header>
+
+    @yield('main')
+
+    <footer></footer>
 
   </body>
 </html>
