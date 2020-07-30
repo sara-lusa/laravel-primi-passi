@@ -13,9 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');
-})->name('welcome');
 
 Route::get('/', function () {
     return view('home');
@@ -24,3 +21,7 @@ Route::get('/', function () {
 Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
+
+Route::get('/faq', function () {
+    return view('faq');
+})->name('faq');

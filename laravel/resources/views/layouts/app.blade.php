@@ -10,36 +10,57 @@
 
     <header>
       <div class="logo">
-        <img src="{{url('img/logo.png')}}" alt="">
+        <img src="{{url('img/logo.png')}}" alt="Logo">
       </div>
 
       <nav>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="{{route('home')}}">Home</a>
           </li>
           <li>
-            <a href="#">Corso</a>
+            <a href="{{route('privacy')}}">Privacy</a>
           </li>
           <li>
-            <a href="#">Dopo il corso</a>
-          </li>
-          <li>
-            <a href="#">Lezione gratuita</a>
-          </li>
-          <li>
-            <a href="#">Assumi</a>
-          </li>
-          <li>
-            <a class="button" href="#">Candidati ora</a>
+            <a href="{{route('faq')}}">FAQ</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    @yield('main')
+    <main>
+      @yield('main')
+    </main>
 
-    <footer></footer>
+    <footer>
+      <div class="up-footer">
+        <div class="contatti">
+          <img src="{{url('img/logo.png')}}" alt="Logo">
+          <span>Sede operativa</span><br>
+          <span>Via Carducci 12 - 20123 Milano</span><br>
+          <span>Tel: 02-40031288</span>
+        </div>
+
+        <div class="footer-menu">
+          <ul>
+            <li>
+              <a href="{{route('privacy')}}">Privacy</a>
+            </li>
+            <li>
+              <a href="{{route('faq')}}">FAQs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="down-footer">
+        <div class="social-menu"></div>
+
+        <div class="info"></div>
+      </div>
+    </footer>
 
   </body>
 </html>

@@ -5,7 +5,5 @@
 @endsection
 
 @section('main')
-  <main>
-
-  </main>
+  
 @endsection

@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('title')
-  Privacy
+  FAQs
 @endsection
 
 @section('main')
-  
+
 @endsection
