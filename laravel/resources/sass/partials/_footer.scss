@@ -1,0 +1,12 @@
+footer {
+  background-color: $primary_color;
+  color: white;
+  
+  .up-footer {
+    .contatti {
+      img {
+        width: $width_logo;
+      }
+    }
+  }
+}

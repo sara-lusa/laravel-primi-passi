@@ -15,6 +15,7 @@ a {
 header {
   height: 80px;
   width: 100%;
+  background-color: white;
   display: flex;
   align-items: center;
   color: #1b3c59;
@@ -45,5 +46,14 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: #61cf4e;
+}
+
+footer {
+  background-color: #1b3c59;
+  color: white;
+}
+
+footer .up-footer .contatti img {
+  width: 200px;
 }
 

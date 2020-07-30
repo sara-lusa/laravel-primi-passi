@@ -1,6 +1,7 @@
 header {
   height: 80px;
   width: 100%;
+  background-color: white;
   display: flex;
   align-items: center;
   color: $primary_color;
@@ -13,7 +14,7 @@ header {
     padding: 0 30px;
 
     img {
-      width: 200px;
+      width: $width_logo;
     }
   }
 
