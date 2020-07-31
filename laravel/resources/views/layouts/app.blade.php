@@ -55,23 +55,25 @@
     </main>
 
     <footer>
-      <div class="up-footer">
-        <div class="contatti">
-          <img src="{{url('img/logo.png')}}" alt="Logo">
-          <span>Sede operativa</span><br>
-          <span>Via Carducci 12 - 20123 Milano</span><br>
-          <span>Tel: 02-40031288</span>
-        </div>
+      <div class="ms-up-footer container-fluid">
+        <div class="row">
+          <div class="ms-contacts col">
+            <img src="{{url('img/logo-white.png')}}" alt="Logo">
+            <span>Sede operativa</span><br>
+            <span>Via Carducci 12 - 20123 Milano</span><br>
+            <span>Tel: 02-40031288</span>
+          </div>
 
-        <div class="footer-menu">
-          <ul>
-            <li>
-              <a href="{{route('privacy')}}">Privacy</a>
-            </li>
-            <li>
-              <a href="{{route('faq')}}">FAQs</a>
-            </li>
-          </ul>
+          <div class="ms-footer-menu col">
+            <ul>
+              <li>
+                <a href="{{route('privacy')}}">Privacy</a>
+              </li>
+              <li>
+                <a href="{{route('faq')}}">FAQs</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 

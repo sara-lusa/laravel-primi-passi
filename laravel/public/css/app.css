@@ -10928,9 +10928,21 @@ a.text-dark:focus {
   }
 }
 
+img {
+  display: block;
+}
+
+main {
+  margin-top: 80px;
+}
+
 header {
   height: 80px;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 header .logo-bool {
@@ -10941,7 +10953,12 @@ header .logo-bool img {
   width: 200px;
 }
 
-footer .up-footer .contatti img {
+footer {
+  background-color: #1b3c59;
+  color: white;
+}
+
+footer .ms-up-footer .row .ms-contacts img {
   width: 200px;
 }
 

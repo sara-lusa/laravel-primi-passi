@@ -5,9 +5,10 @@ header {
   // display: flex;
   // align-items: center;
   // color: $primary_color;
-  // position: fixed;
-  // top: 0;
-  // left: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 
   .logo-bool {
     // flex-basis: 30%;
