@@ -1,16 +1,16 @@
 header {
   height: 80px;
   width: 100%;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  color: $primary_color;
-  position: fixed;
-  top: 0;
-  left: 0;
+  // background-color: white;
+  // display: flex;
+  // align-items: center;
+  // color: $primary_color;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
 
-  .logo {
-    flex-basis: 30%;
+  .logo-bool {
+    // flex-basis: 30%;
     padding: 0 30px;
 
     img {
@@ -18,22 +18,22 @@ header {
     }
   }
 
-  nav{
-    ul {
-      li {
-        display: inline-block;
-
-        a {
-          text-decoration: none;
-          text-transform: uppercase;
-          padding: 20px 23px;
-          font-weight: 500;
-
-          &:hover {
-            color: $secondary_color;
-          }
-        }
-      }
-    }
-  }
+  // nav{
+  //   ul {
+  //     li {
+  //       display: inline-block;
+  //
+  //       a {
+  //         text-decoration: none;
+  //         text-transform: uppercase;
+  //         padding: 20px 23px;
+  //         font-weight: 500;
+  //
+  //         &:hover {
+  //           color: $secondary_color;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 }
